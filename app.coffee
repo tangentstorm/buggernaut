@@ -1,6 +1,5 @@
-http = require "http"
+express = require "express"
+module.exports = app = express()
 
-module.exports = http.createServer((req, res) ->
-    res.writeHead 200, 'Content-Type': 'text/plain'
-    res.end 'Hello World\n'
-)
+app.get '/', (req, res) ->
+  res.send 'Hello world!'
