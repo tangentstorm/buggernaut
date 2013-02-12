@@ -1,0 +1,4 @@
+
+describe 'buggernaut', ->
+  it 'has a test suite', ->
+    expect( true ).toBe true
