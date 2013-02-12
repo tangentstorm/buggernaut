@@ -1,0 +1,10 @@
+{
+  "name": "buggernaut",
+  "description" : "a generic debugger in coffeescript",
+  "version": "0.0.0",
+  "license" : "MIT/X11-style",
+  "dependencies": {
+    "coffee-script": "1.4.0",
+    "express": "3.x"
+  }
+}
